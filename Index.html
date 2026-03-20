@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Yaper | Real-Time Chat Rooms That Actually Work</title>
+    <meta name="title" content="Yaper | Real-Time Chat Rooms That Actually Work">
+    <meta name="description" content="Stop using bloated messaging apps. Yaper offers instant, lightweight, real-time chat rooms with image sharing, emojis, and dark mode. Zero friction, no registration.">
+    <meta name="keywords" content="real-time chat app, online chat rooms, private chat rooms with password, lightweight messaging platform, instant messaging web app, simple chat room app, browser-based chat system, image sharing chat">
+    <meta name="author" content="antriksh006">
+    <link rel="canonical" href="https://yaper.netlify.app" />
+
+    <!-- Open Graph / Facebook / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yaper.netlify.app">
+    <meta property="og:title" content="Yaper | Instant Real-Time Chat Rooms">
+    <meta property="og:description" content="Lightweight, fast, and frictionless. Now with instant image sharing and theme switching.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Yaper",
+      "url": "https://yaper.netlify.app",
+      "applicationCategory": "CommunicationApplication",
+      "description": "Frictionless real-time chat rooms with image sharing and theme customization.",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .bg-base { background-color: #050505; }
+        .accent-gradient { background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); }
+        .text-muted { color: #a1a1aa; }
+        .feature-card:hover { border-color: rgba(99, 102, 241, 0.4); background: rgba(255, 255, 255, 0.02); }
+    </style>
+</head>
+<body class="bg-base text-white antialiased">
+
+    <!-- Navigation -->
+    <header class="fixed w-full z-50 bg-base/80 backdrop-blur-md border-b border-white/5">
+        <nav class="container mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-2 font-bold text-xl tracking-tight">
+                <div class="accent-gradient p-1 rounded-md">
+                    <i data-lucide="zap" class="w-5 h-5 text-white fill-white"></i>
+                </div>
+                <span>YAPER</span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-muted">
+                <a href="#why" class="hover:text-white transition">Why Yaper</a>
+                <a href="#features" class="hover:text-white transition">Features</a>
+                <a href="#how" class="hover:text-white transition">How it Works</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="hidden sm:flex bg-white/5 p-1 rounded-full border border-white/10">
+                    <div class="p-1.5 rounded-full bg-white text-black"><i data-lucide="moon" class="w-3.5 h-3.5"></i></div>
+                    <div class="p-1.5 rounded-full text-zinc-500"><i data-lucide="sun" class="w-3.5 h-3.5"></i></div>
+                </div>
+                <a href="https://yaper.netlify.app" class="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-zinc-200 transition">
+                    Start Chatting
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-40 pb-32 px-6">
+            <div class="container mx-auto max-w-5xl">
+                <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-[0.95] tracking-tight text-center md:text-left">
+                    Real-Time Chat Rooms That <span class="text-indigo-500 italic">Actually Work.</span>
+                </h1>
+                
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <p class="text-xl md:text-2xl text-muted mb-10 leading-relaxed">
+                            Stop using bloated messaging apps that slow you down. Yaper gives you instant, lightweight, real-time chat rooms with zero friction. Now with <strong>instant image sharing</strong> and <strong>built-in emojis.</strong>
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="https://yaper.netlify.app" class="accent-gradient text-white px-8 py-4 rounded-xl font-bold text-lg hover:opacity-90 transition shadow-2xl shadow-indigo-500/20 text-center">
+                                Open App Now
+                            </a>
+                            <p class="flex items-center gap-2 text-sm text-muted px-4 py-4 justify-center md:justify-start">
+                                <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> No registration required
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <div class="absolute -inset-1 bg-indigo-500/20 rounded-2xl blur-xl transition group-hover:bg-indigo-500/30"></div>
+                        <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&q=80&w=800" 
+                             alt="Lightweight Code Interface" 
+                             class="relative rounded-2xl border border-white/10 grayscale hover:grayscale-0 transition duration-500 w-full">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Yaper -->
+        <section id="why" class="py-24 bg-zinc-950">
+            <div class="container mx-auto px-6 max-w-4xl text-center">
+                <h2 class="text-3xl md:text-5xl font-bold mb-12">Why Yaper Exists</h2>
+                <div class="grid md:grid-cols-2 gap-6 text-left">
+                    <div class="p-6 rounded-2xl bg-base border border-white/5 flex items-start gap-4 feature-card transition-all">
+                        <div class="bg-emerald-500/10 p-2 rounded-lg text-emerald-500"><i data-lucide="zap" class="w-5 h-5"></i></div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1 text-white">Fast room creation</h4>
+                            <p class="text-sm text-muted">No setup. Name your space and you're live.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-base border border-white/5 flex items-start gap-4 feature-card transition-all">
+                        <div class="bg-blue-500/10 p-2 rounded-lg text-blue-500"><i data-lucide="image" class="w-5 h-5"></i></div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1 text-white">Instant Media Sharing</h4>
+                            <p class="text-sm text-muted">Paste or drag images directly into the chat. No wait time.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-base border border-white/5 flex items-start gap-4 feature-card transition-all">
+                        <div class="bg-purple-500/10 p-2 rounded-lg text-purple-500"><i data-lucide="palette" class="w-5 h-5"></i></div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1 text-white">Light and Dark Mode</h4>
+                            <p class="text-sm text-muted">Choose the theme that fits your workflow best.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 rounded-2xl bg-base border border-white/5 flex items-start gap-4 feature-card transition-all">
+                        <div class="bg-pink-500/10 p-2 rounded-lg text-pink-500"><i data-lucide="smile" class="w-5 h-5"></i></div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1 text-white">Expressive Context</h4>
+                            <p class="text-sm text-muted">Native emoji support right in the input bar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start Now CTA -->
+        <section class="py-32 px-6">
+            <div class="container mx-auto max-w-4xl text-center p-16 rounded-[4rem] accent-gradient shadow-2xl shadow-indigo-500/30">
+                <h2 class="text-4xl md:text-6xl font-black text-white mb-8">Ready to Yaper?</h2>
+                <p class="text-white/80 text-xl mb-12 max-w-xl mx-auto font-medium">
+                    Create a room or join one. You’re seconds away from real-time communication without friction.
+                </p>
+                <a href="https://yaper.netlify.app" class="bg-white text-black px-12 py-5 rounded-2xl font-black text-2xl hover:scale-105 transition shadow-2xl block sm:inline-block">
+                    Open Yaper Live
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-20 border-t border-white/5 text-center">
+        <div class="container mx-auto px-6">
+            <div class="flex items-center justify-center gap-2 font-bold text-2xl mb-6">
+                <div class="accent-gradient p-1 rounded-md"><i data-lucide="zap" class="w-6 h-6 text-white"></i></div>
+                <span>YAPER</span>
+            </div>
+            <p class="text-zinc-600 text-[10px] font-black uppercase tracking-[0.4em]">
+                &copy; 2026 Yaper Platform | Built by antriksh006
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
