@@ -10,13 +10,6 @@
     <meta name="keywords" content="real-time chat app, online chat rooms, private chat rooms, lightweight messaging, instant messaging web app, anonymous chat no registration, free chat rooms online, yaper chat">
     <link rel="canonical" href="https://yaper.netlify.app" />
 
-    <!-- Open Graph / Social Media Meta -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yaper.netlify.app">
-    <meta property="og:title" content="Yaper | Real-Time Chat Rooms That Actually Work">
-    <meta property="og:description" content="Zero friction, instant messaging, and media sharing. No signup required.">
-    <meta property="og:image" content="https://img.sanishtech.com/u/1118694115389def5702bdc197e3f554.jpeg">
-
     <style>
         /* ABSOLUTE CRITICAL CSS - FORCES DARK THEME INSTANTLY */
         html, body {
@@ -126,7 +119,7 @@
             align-items: center;
             justify-content: center;
             padding: 18px 24px;
-            border-radius: 16px;
+            border-radius: 14px;
             font-weight: 800;
             text-decoration: none;
             font-size: 1.1rem;
@@ -134,20 +127,20 @@
         }
 
         .primary { background: #6366f1; color: #ffffff; box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3); }
-        .secondary { color: #71717a; font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; }
+        .secondary { font-size: 0.9rem; color: #71717a; border: none; padding: 5px; }
 
-        /* MOCKUP DISPLAY */
-        .mockup-wrap {
-            margin: 40px auto;
-            max-width: 900px;
-            border-radius: 24px;
+        /* IMAGERY BLOCKS */
+        .img-wrap {
+            margin: 20px auto;
+            border-radius: 20px;
             border: 1px solid rgba(255, 255, 255, 0.1);
             overflow: hidden;
-            background: #000;
-            box-shadow: 0 40px 100px rgba(0,0,0,0.8);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            background: #111;
+            line-height: 0;
         }
 
-        .mockup-wrap img {
+        .img-wrap img {
             width: 100%;
             height: auto;
             display: block;
@@ -179,28 +172,7 @@
         .f-card h3 { margin: 0 0 12px; font-size: 1.3rem; color: #6366f1; }
         .f-card p { margin: 0; color: #a1a1aa; font-size: 0.95rem; line-height: 1.5; }
 
-        /* MULTI-DEVICE PREVIEW */
-        .multi-preview {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 60px;
-        }
-
-        .phone-mockup {
-            width: 100%;
-            max-width: 300px;
-            border-radius: 30px;
-            border: 8px solid #1a1a1a;
-            overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
-            background: #000;
-        }
-
-        .phone-mockup img { width: 100%; display: block; }
-
-        /* GOOGLE STYLE SEARCH SECTION (SEO POWER) */
+        /* GOOGLE SEARCH REPLICATION */
         .serp-section {
             background: #ffffff;
             color: #202124;
@@ -319,8 +291,8 @@
 
         @media (min-width: 768px) {
             .btn-stack { flex-direction: row; max-width: 100%; justify-content: center; }
-            .action-btn { width: 320px; }
-            .big-btn { width: auto; display: inline-block; padding: 22px 80px; }
+            .action-btn { width: 300px; }
+            .big-btn { width: auto; display: inline-block; padding: 24px 80px; }
             .hero { padding-top: 100px; }
         }
     </style>
@@ -354,9 +326,9 @@
                 <div class="action-btn secondary">No registration required</div>
             </div>
 
-            <!-- Custom Hero Image -->
-            <div class="mockup-wrap">
-                <img src="https://img.sanishtech.com/u/1118694115389def5702bdc197e3f554.jpeg" alt="Yaper Real-Time Chat Interface">
+            <!-- Custom User Image 1 -->
+            <div class="img-wrap" style="max-width: 900px;">
+                <img src="https://drive.google.com/uc?export=view&id=18aVWzTh4B3oWjOggxC1pBc8jrfBgan-K" alt="Yaper Real-Time Interface">
             </div>
         </section>
 
@@ -377,37 +349,31 @@
                         <h3>Light and Dark Mode</h3>
                         <p>Choose the theme that fits your workflow best. Zero distractions, focused on chat.</p>
                     </div>
-                    <div class="f-card">
-                        <h3>Expressive Context</h3>
-                        <p>Native emoji support right in the input bar. Talk to strangers with personality.</p>
-                    </div>
                 </div>
                 
-                <!-- Multi-Device Previews -->
-                <div class="multi-preview">
-                    <div class="phone-mockup">
-                        <img src="https://img.sanishtech.com/u/2ccb03cfa6a0b28d19702f4afb148d27.jpeg" alt="Mobile Room View">
-                    </div>
-                    <div class="phone-mockup">
-                        <img src="https://img.sanishtech.com/u/a0812de105f9f813b61cde3015755c85.jpeg" alt="Message Selection Interface">
-                    </div>
+                <!-- Custom User Image 2 -->
+                <div class="img-wrap" style="max-width: 600px; margin-top: 60px;">
+                    <img src="https://drive.google.com/uc?export=view&id=1jM17FY053RexpYfH09MbdgnQmdv7dkl_" alt="Mobile Messaging Experience">
                 </div>
             </div>
         </section>
 
-        <!-- Detailed Feature Section -->
-        <section class="container" style="padding: 100px 0;">
+        <!-- Product Preview Section -->
+        <section class="container" style="padding: 80px 0;">
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center;">
                 <div>
                     <h2 style="font-size: 2.5rem; font-weight: 900; line-height: 1.1; margin-bottom: 24px;">Lightweight Code <br><span style="color: #6366f1;">Interface.</span></h2>
                     <p style="color: #a1a1aa; font-size: 1.1rem; margin-bottom: 32px;">Every element in Yaper is intentional. No feature exists unless it directly improves communication. Minimal UI. Fast load times.</p>
-                    <div class="mockup-wrap">
-                        <img src="https://img.sanishtech.com/u/e68cebb7b317f1d70b7042d30ed4f069.jpeg" alt="Yaper Interface Performance">
+                    <div class="img-wrap">
+                        <img src="https://drive.google.com/uc?export=view&id=1xCFUv95RwPIWJ5qAsoeS1GOU7vn71jen" alt="Interface Context">
                     </div>
                 </div>
                 <div>
-                    <div class="mockup-wrap">
-                        <img src="https://img.sanishtech.com/u/7396fed83fdca806084e0502732a9c07.jpeg" alt="Mobile Messaging Context">
+                    <div class="img-wrap">
+                        <img src="https://drive.google.com/uc?export=view&id=1B_5_sIqEUi6g9imUFouEPjRjg_Tx_JH-" alt="Mobile Room View">
+                    </div>
+                    <div class="img-wrap" style="margin-top: 20px;">
+                        <img src="https://drive.google.com/uc?export=view&id=1nuH2ZXKnkWEdoghiVWF-By2qu1dnYf0H" alt="Yaper Messaging Detail">
                     </div>
                 </div>
             </div>
@@ -415,37 +381,30 @@
 
         <!-- Google Style Search Section -->
         <section class="serp-section">
-            <div class="container serp-container">
+            <div class="container serp-list">
                 <div class="serp-header">
                     <span>People also search for</span>
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                 </div>
                 
                 <a href="https://yaper.netlify.app" class="serp-row">
                     <span>Random chat rooms <b>online</b></span>
                     <div class="search-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" cy="21" x2="16.65" y2="16.65"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="3"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                     </div>
                 </a>
 
                 <a href="https://yaper.netlify.app" class="serp-row">
                     <span>Random chat rooms <b>online free</b></span>
                     <div class="search-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" cy="21" x2="16.65" y2="16.65"/></svg>
-                    </div>
-                </a>
-
-                <a href="https://yaper.netlify.app" class="serp-row">
-                    <span>Random chat <b>video call</b></span>
-                    <div class="search-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" cy="21" x2="16.65" y2="16.65"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="3"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                     </div>
                 </a>
 
                 <a href="https://yaper.netlify.app" class="serp-row">
                     <span>Talk to strangers <b>anonymous</b></span>
                     <div class="search-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" cy="21" x2="16.65" y2="16.65"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5f6368" stroke-width="3"><circle cx="11" cy="11" r="8"/><line x1="21" cy="21" x2="16.65" y2="16.65"/></svg>
                     </div>
                 </a>
             </div>
@@ -458,7 +417,7 @@
                 
                 <details>
                     <summary>What is the best site for random chat rooms online free? <span style="color:#6366f1;">+</span></summary>
-                    <div class="faq-ans">Yaper is a top-rated platform for <b>random chat rooms online free</b>. We offer zero lag, no registration, and high-definition video connections instantly in your browser.</div>
+                    <div class="faq-ans">Yaper is a top-rated platform for <b>random chat rooms online free</b>. We offer zero lag, no registration, and high-definition connections instantly in your browser.</div>
                 </details>
 
                 <details>
@@ -467,13 +426,8 @@
                 </details>
 
                 <details>
-                    <summary>Is Yaper a free Omegle alternative? <span style="color:#6366f1;">+</span></summary>
-                    <div class="faq-ans">Absolutely. Yaper is a safer, more modern <b>Omegle alternative</b>. We use AI moderation to keep out bots and spam while providing high-speed text and video connections.</div>
-                </details>
-
-                <details>
-                    <summary>Does it work on iPhone and Android? <span style="color:#6366f1;">+</span></summary>
-                    <div class="faq-ans">Yes, Yaper is fully optimized for <b>mobile browsers</b>. Start a high-quality random chat video call on any smartphone instantly without downloading an app.</div>
+                    <summary>Is Yaper really free to use? <span style="color:#6366f1;">+</span></summary>
+                    <div class="faq-ans">Absolutely. Yaper is a 100% free platform. We believe in providing instant, high-speed communication tools to the community without any hidden costs.</div>
                 </details>
             </div>
         </section>
@@ -495,4 +449,5 @@
 
 </body>
 </html>
+
 
